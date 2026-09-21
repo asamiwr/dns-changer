@@ -2,6 +2,6 @@ import sys
 
 from app.application import DNSChanger
 
-
-app = DNSChanger()
-app.run(sys.argv)
+if __name__ == "__main__":
+    app = DNSChanger()
+    app.run(sys.argv)

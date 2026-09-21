@@ -40,7 +40,6 @@ class MainWindow(Adw.ApplicationWindow):
         header.pack_end(add_button)
 
         toolbar_view.add_top_bar(header)
-
         scrolled = Gtk.ScrolledWindow()
         scrolled.set_vexpand(True)
 
